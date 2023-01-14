@@ -5,17 +5,17 @@ import kotlin.math.cos
 import kotlin.math.sqrt
 import kotlin.math.pow
 
-fun main(args : Array<String>) {
+fun main() {
     val input = Scanner(System.`in`)
     val program = Defibrillator(input)
     program.run()
 }
 
 class Defibrillator(val input: Scanner) {
-    var longitude = 0.0
-    var latitude = 0.0
-    var defibrillatorCount = 0
-    val defibrillatorList = mutableListOf<MutableList<String>>()
+    private var longitude = 0.0
+    private var latitude = 0.0
+    private var defibrillatorCount = 0
+    private val defibrillatorList = mutableListOf<MutableList<String>>()
     fun run() {
         longitude = input.next().replace(',','.').toDouble()
         latitude = input.next().replace(',','.').toDouble()
