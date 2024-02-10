@@ -1,5 +1,6 @@
+package puzzle
+
 import java.util.*
-import kotlin.math.*
 
 fun main(args : Array<String>) {
     val program = DeathFirstSearch()
