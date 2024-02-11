@@ -1,6 +1,6 @@
+package puzzle
+
 import java.util.*
-import java.io.*
-import java.math.*
 
 fun main(args : Array<String>) {
     val input = Scanner(System.`in`)

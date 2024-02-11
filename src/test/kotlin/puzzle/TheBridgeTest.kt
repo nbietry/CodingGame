@@ -1,5 +1,7 @@
 package puzzle
 
+import optimization.GeneticAlgorithm
+import optimization.Moto
 import org.junit.jupiter.api.Test
 
 internal class TheBridgeTest {

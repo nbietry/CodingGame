@@ -1,4 +1,4 @@
-package puzzle
+package optimization
 
 import java.util.*
 import kotlin.random.Random
@@ -248,7 +248,7 @@ class Population {
         individuals = Array(populationSize){ Individual(populationSize) }
     }
     constructor(populationSize: Int, chromosomeLength: Int) {
-        individuals = Array(populationSize){Individual(chromosomeLength)}
+        individuals = Array(populationSize){ Individual(chromosomeLength) }
         for (individualCount in 0 until populationSize) {
             val individual = Individual(chromosomeLength)
             individuals[individualCount] = individual
