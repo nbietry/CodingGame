@@ -1,0 +1,6 @@
+package codewars
+
+
+class CanYouGetTheLoop {
+
+}
